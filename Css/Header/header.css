@@ -12,21 +12,23 @@
   margin:0 auto;
   color:coral
 }
-#header_content
+.header_content
 {
+  display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
     width: 100%;
-    display: block;
+  
     /* 居中 */
     text-align:center;
  
 }
-#header_content>.header_content_blog{
+.header_content_blog{
   width: 30%;
   height: 100%;
-  float:left;
   margin:16px 0 0 16px;
 }
-#header_content img
+.header_content_blog img
 {
     width: 100%;
     box-shadow:   rgba(243, 20, 20, 0.2) 0 2px 5px 0px;
